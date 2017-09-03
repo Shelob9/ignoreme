@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "shellob9\\IgnoreMe\\": "src"
+            "Shelob9\\Ingoreme\\": "src"
         }
     }
 }

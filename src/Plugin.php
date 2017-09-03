@@ -28,11 +28,14 @@ abstract class Plugin {
 
 	abstract protected function setName() : string ;
 
-
+	public function getRegistrationHook() : string
+	{
+		return $this->get_slug() . '_register_services';
+	}
 	final public function registerServices()
 	{
 		$container = new Container();
-		do_action_ref_array( $this->get_slug() . '_register_services', [
+		do_action_ref_array( $this->getRegistrationHook(), [
 			$container,
 			$this->get_slug(),
 			$this->version
