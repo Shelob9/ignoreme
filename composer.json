@@ -9,7 +9,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "pimple/pimple": "^3.2",
+        "netrivet/wp-event-emitter": "^4.0",
+        "tareq1988/wp-eloquent": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "shellob9\\IgnoreMe\\": "src"
