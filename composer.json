@@ -1,0 +1,13 @@
+{
+    "name": "shleob9/ignore-me",
+    "description": "IGNORE ME!",
+    "license": "GLPv2+",
+    "authors": [
+        {
+            "name": "Josh Pollock",
+            "email": "Josh@JoshPress.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
